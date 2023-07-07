@@ -66,12 +66,13 @@ while (answer == "no") {
 cout << "Try again: " << endl;
 cin >> answer;
 
-  
-}
-if (answer == "yes") {
-cout << "Zelle $" << answer << endl;
+  else if (answer == "yes") {
+cout << "Zelle: $" << ceil(price);
 
+  }
 }
+
+
 
 
 
