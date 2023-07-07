@@ -55,9 +55,9 @@ cout << "Zelle $" << ceil(price);
 
 }
 
-While (answer == no) {
+while (answer == "no") {
 cout << "Try again: "<< endl;
-cin << answer;
+cin >> answer;
 
   
 }
