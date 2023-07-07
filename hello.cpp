@@ -34,30 +34,8 @@ if (answer == "yes") {
 else if (answer == "no") {
 cout << "I don't think you understood the question. Would you like to round up for the homie tax? (bro just paid for everyones food)" << endl;
 }
-
 cin >> answer;
 
-
-
-if (answer == "yes") {
-cout << "Zelle $" << ceil(price);
-
-}
-
-else {
-cout << "Is everything okay at home? Like really bro cmon. Lets do the right thing here. \n Would you like to round up for the homie tax." << endl;
-cin >> answer;
-
-while (answer == "no") {
-
-  cout << "Try again: ";
-  cin >> answer;
-}
-
-
-
-if (answer == "yes") {
-cout << "Zelle $" << ceil(price);
 
 }
 
