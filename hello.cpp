@@ -68,7 +68,7 @@ cin >> answer;
 
   
 }
-if (answer == yes) {
+if (answer == "yes") {
 cout << "Zelle $" << answer << endl;
 
 }
