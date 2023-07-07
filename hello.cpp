@@ -35,7 +35,7 @@ else if (answer == "no") {
 cout << "I don't think you understood the question. Would you like to round up for the homie tax? (bro just paid for everyones food)" << endl;
 }
 
-cin << answer;
+cin >> answer;
 
 
 
@@ -48,7 +48,7 @@ if (answer == "no") {
 cout << "Is everything okay at home? Like really bro cmon. Lets do the right thing here. \n Would you like to round up for the homie tax." << endl;
 
 }
-cin << answer;
+cin >> answer;
 
 
 
