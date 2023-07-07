@@ -8,7 +8,7 @@ int main() {
 double price;
 cout << "Enter meal price\n";
 cin >> price;
-cout << "Your meal price is: " << price * 1.08 << endl;
+cout << "Your meal price after tax is: " << price * 1.08 << endl;
 double tip;
 double number;
 cout << "How much would you like to tip? (enter number only) \n10%, 15%, 20%\n";
@@ -26,7 +26,7 @@ price *= 1.2;
 
 cout << "Your final price is: " << price << endl;
 string answer;
-cout << "Would you like to round up?\n";
+cout << "Would you like to round up for the homie tax?\n";
 cin >> answer;
 if (answer == "yes") {
     cout << ceil(price) << endl;
