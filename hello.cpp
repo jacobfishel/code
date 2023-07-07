@@ -66,7 +66,7 @@ while (answer == "no") {
 cout << "Try again: " << endl;
 cin >> answer;
 
-  else if (answer == "yes") {
+if (answer == "yes") {
 cout << "Zelle: $" << ceil(price);
 
   }
