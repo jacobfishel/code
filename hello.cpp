@@ -48,7 +48,11 @@ cout << "try again" << endl;
 cin >> answer;
 
 }
+if (answer == "yes") {
+cout << "Zelle: $" << ceil(price) << endl;
 
+
+}
 
 
 
