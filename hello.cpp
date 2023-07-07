@@ -44,7 +44,7 @@ cout << "Zelle $" << ceil(price);
 
 }
 
-while (answer == "no") {
+if (answer == "no") {
 cout << "Is everything okay at home? Like really bro cmon. Lets do the right thing here. \n Would you like to round up for the homie tax." << endl;
 
 }
@@ -55,7 +55,16 @@ cout << "Zelle $" << ceil(price);
 
 }
 
+While (answer == no) {
+cout << "Try again: "<< endl;
+cin << answer;
 
+  
+}
+if (answer == yes) {
+cout << "Zelle $" << answer << endl;
+
+}
 
 
 
