@@ -63,5 +63,16 @@ if (answer == "yes") {
 cout << "Zelle: $" << ceil(price) << endl << endl;
 }
 
+std::string name
+cout << "Who is paying? ";
+cin >> name >> endl
+
+if (name == "dario") {
+cout << "zelle " << price << "7608924566" << endl;
+
+
+
+}
+
 return 0;
 }
