@@ -42,7 +42,7 @@ if (answer == "yes") {
 }
 
 else if (answer == "no") {
-cout << "I don't think you understood the question. Would you like to round up for the homie tax? (bro just paid for everyones food)" << endl << endl;
+cout << "You must really need the extra 10 cents. Would you like to round up for the homie tax?" << endl << endl;
 }
 
 else {
@@ -63,7 +63,7 @@ if (answer == "yes") {
 cout << "Zelle: $" << ceil(price) << endl << endl;
 }
 
-std::string name
+std::string name;
 cout << "Who is paying? ";
 cin >> name >> endl
 

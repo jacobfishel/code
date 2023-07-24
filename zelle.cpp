@@ -5,6 +5,7 @@ using namespace std;
 
 
 int main() {
+  
 double price;
 cout << "Enter meal price\n";
 cin >> price;
