@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <string>
+#include "functions.hpp"
 using namespace std;
 
 
@@ -65,11 +66,7 @@ cout << "Zelle: $" << ceil(price) << endl << endl;
 
 std::string name;
 cout << "Who is paying? ";
-cin >> name >> endl
-
-if (name == "dario") {
-cout << "zelle " << price << "7608924566" << endl;
-
+payment(dario);
 
 
 }
