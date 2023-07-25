@@ -37,12 +37,12 @@ string answer;
 
 cout << "Would you like to round up for the homie tax? ";
 cin >> answer;
-
+std::string name'
 if (answer == "yes") {
     cout << "Who is paying? " << endl << endl;
     cin >> name;
-    if (name == Dario) {
-cout << "Zelle: " << price << " to 7608924566"<< endl
+    if (name == "Dario") {
+cout << "Zelle: " << price << " to 7608924566"<< endl;
 
     }
 }
