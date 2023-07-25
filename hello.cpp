@@ -41,7 +41,7 @@ std::string name'
 if (answer == "yes") {
     cout << "Who is paying? " << endl << endl;
     cin >> name;
-    if (name == "Dario") {
+    if else (name == "Dario") {
 cout << "Zelle: " << price << " to 7608924566"<< endl;
 
     }
