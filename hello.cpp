@@ -68,7 +68,7 @@ std::string name;
 cout << "Who is paying? ";
 cin >> name >> endl;
 
-if(name == Dario){
+if(name == "Dario"){
 std::cout << "7608924566";
 
 }
