@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cmath>
-
+#include <string>
+#include "functions.hpp"
+using namespace std;
 
 
 int main() {
