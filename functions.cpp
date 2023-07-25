@@ -5,6 +5,7 @@
 
 std::string payment(std::string name){
 if (name == dario){
+    std::string dario;
 std::cout << "7608924566" << endl;
 
 }
