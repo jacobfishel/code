@@ -1,8 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include <string>
-#include "functions.hpp"
-using namespace std;
+
 
 
 int main() {
@@ -74,7 +72,7 @@ std::cout << "7608924566";
 }
 
 
-}
+
 
 return 0;
-
+}
