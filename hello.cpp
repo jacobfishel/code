@@ -66,7 +66,12 @@ cout << "Zelle: $" << ceil(price) << endl << endl;
 
 std::string name;
 cout << "Who is paying? ";
-payment(dario);
+cin >> name >> endl;
+
+if(name == Dario){
+std::cout << "7608924566";
+
+}
 
 
 }
