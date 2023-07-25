@@ -39,7 +39,12 @@ cout << "Would you like to round up for the homie tax? ";
 cin >> answer;
 
 if (answer == "yes") {
-    cout << "Zelle $" << ceil(price) << endl << endl;
+    cout << "Who is paying? " << endl << endl;
+    cin >> name;
+    if (name == Dario) {
+cout << "Zelle: " << price << " to 7608924566"<< endl
+
+    }
 }
 
 else if (answer == "no") {
