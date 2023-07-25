@@ -9,7 +9,7 @@ int main() {
 double price;
 
 cout << "Enter meal price:";
-cin >> price >> endl;
+cin >> price;
 cout << "Your meal price after tax is: $" << price * 1.08 << endl << endl;
 
 
@@ -66,7 +66,7 @@ cout << "Zelle: $" << ceil(price) << endl << endl;
 
 std::string name;
 cout << "Who is paying? ";
-cin >> name >> endl;
+cin >> name;
 
 if(name == "Dario"){
 std::cout << "7608924566";
@@ -75,6 +75,6 @@ std::cout << "7608924566";
 
 
 }
-
-return 0;
 }
+return 0;
+
